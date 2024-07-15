@@ -52,14 +52,22 @@ const Hero = () => {
 
       <div className='flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]'>
         <div className='w-[403px] bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-950 p-6'>
-          <div className='flex items-center justify-center'>
-            <img
-              className='hero-img'
-              src={PROFILE_PIC}
-              alt='img one'
-            />
+          {/* here for the rectangular colors */}
+          <div className='flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]'>
+            <div className='w-[403px] bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-950 p-6'>
+              <div className='flex items-center justify-center'>
+                <div className='relative p-[3px] bg-gradient-to-r from-yellow-500 via-red-500 to-blue-500 rounded-full'>
+                  <div className='bg-white rounded-full p-1'>
+                    <img
+                      className='hero-img rounded-full'
+                      src={PROFILE_PIC}
+                      alt='img one'
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
           <div className='bg-cardbg rounded-md text-center mt-3 p-4'>
             <h5 className='text-sm md:text-base text-white'>
               {name}
@@ -73,19 +81,16 @@ const Hero = () => {
               <p className='font-medium'>{location}</p>
             </div>
           </div>
-
           <InfoTile
             icon={<FiMail size={20} className='text-sky-400' />}
             text={email}
           />
-
           <InfoTile
             icon={
               <MdOutlineBadge size={22} className='text-sky-400' />
             }
             text={`${yearsOfExperience} Years of Experience`}
           />
-
           <div className='flex items-center gap-2 flex-wrap my-3'>
             {skills.map((item) => (
               <div
@@ -96,7 +101,6 @@ const Hero = () => {
               </div>
             ))}
           </div>
-
           {/* icons of the hero section */}
           <div className='flex items-center gap-2 flex-wrap'>
             <div className='bg-blue-800/30 p-2 rounded'>

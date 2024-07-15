@@ -31,7 +31,7 @@ const Footer = () => {
           padding: '9px',
         }}
       >
-        💛 Check out my blog to learn more about my journey at{' '}
+        💛 i write to learn{' '}
         <a
           href='https://slowcoding.vercel.app/'
           className='rainbow-text'
