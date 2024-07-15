@@ -31,7 +31,11 @@ const Contact = () => {
           <h5 className='md:hidden text-cyan-300 text-lg font-medium mt-4 pb-5'>
             Contact Form
           </h5>
-          <form className='flex flex-col'>
+          <form
+            className='flex flex-col'
+            action='https://getform.io/f/blljzzjb'
+            method='POST'
+          >
             <input
               type='text'
               name='fullname'
