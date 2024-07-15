@@ -11,7 +11,7 @@ const Contact = () => {
       id='contact'
     >
       <h5 className='text-primary text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14 '>
-        Contact
+        Get in Touch
       </h5>
 
       <div class='grid grid-cols-1 md:grid-cols-2 md:gap-16'>
