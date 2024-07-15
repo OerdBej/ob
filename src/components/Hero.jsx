@@ -39,7 +39,7 @@ const Hero = () => {
           {tagline}
         </p>
 
-        <button className='primary-btn'>
+        <button className='bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded '>
           <a href='https://oerdbej.vercel.app/'>Show Case 📂 </a>
         </button>
       </div>

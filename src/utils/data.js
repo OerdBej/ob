@@ -10,7 +10,9 @@ import { SiTypescript } from 'react-icons/si';
 export const PROFILE_DATA = {
   profilePicture: 'https://via.placeholder.com/150',
   name: 'Oerd Bej',
-  tagline: `Fullstack Developer with more than 2.5 years of experience specializing in the JavaScript ecosystem, with a strong emphasis on React and Typescript. Dedicated to lifelong learning, I embody a growth mindset and excel in creative problem-solving. My expertise is further enhanced by proven leadership abilities and exceptional communication skills.`,
+  tagline: `Fullstack Developer with almost 3 years of experience specializing in the JavaScript ecosystem, with a strong emphasis on React and Typescript. Dedicated to lifelong learning, I embody a growth mindset and excel in creative problem-solving. My expertise is further enhanced by proven leadership abilities and exceptional communication skills.
+
+I love to read books and you can follow me on Goodreads. Also, feel free to check out my blog where I write to learn better.`,
   jobTitle: 'Full Stack Developer',
   location: 'Berlin, Germany',
   yearsOfExperience: 3,
