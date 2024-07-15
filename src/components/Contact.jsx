@@ -25,11 +25,6 @@ const Contact = () => {
             icon={<IoPhonePortraitOutline />}
             text={PROFILE_DATA.phone}
           />
-
-          <ContactInfoCard
-            icon={<MdOutlineWeb />}
-            text={PROFILE_DATA.website}
-          />
         </div>
 
         <div>

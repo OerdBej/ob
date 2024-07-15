@@ -6,6 +6,9 @@ import {
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { SiMongodb } from 'react-icons/si';
 import { SiTypescript } from 'react-icons/si';
+import { SiExpress } from 'react-icons/si';
+import { SiNextdotjs } from 'react-icons/si';
+import { SiMysql } from 'react-icons/si';
 
 export const PROFILE_DATA = {
   profilePicture: 'https://via.placeholder.com/150',
@@ -18,17 +21,22 @@ I love to read books and you can follow me on Goodreads. Also, feel free to chec
   yearsOfExperience: 3,
   skills: [
     'JavaScript',
+    'Typescript',
     'React.js',
     'Redux',
-    'Typescript',
+    'Next.js',
     'Tailwind CSS',
     'Material UI',
-    'Redux',
     'Node.js',
+    'Express.js',
     'RESTful APIs',
+    'UX/UI Design',
+    'MySQL',
+    'Linux',
+    'AWS',
   ],
   email: 'oerdbej@gmail.com',
-  phone: '+1 (123) 456-7890',
+  phone: '+49 162 3388674',
   website: 'https://timetoprogram.com',
 };
 
@@ -37,37 +45,37 @@ export const SKILLS = [
     id: '01',
     icon: IoLogoJavascript,
     title: 'JavaScript',
-    comment: `JavaScript is my bread and butter. I've been working with it for over 4 years and have built numerous applications, ranging from simple scripts to complex web applications.`,
+    comment: `JavaScript has been my primary language for several years. I've used it to build a variety of projects, from simple scripts to more complex web applications. I appreciate its versatility and wide adoption in the industry.`,
   },
   {
     id: '02',
     icon: SiTypescript,
-    title: 'Typescript',
-    comment: `TypeScript is a fundamental part of every web project I work on. I have a deep understanding of its type system and features, ensuring my code is robust, maintainable, and scalable.`,
+    title: 'TypeScript',
+    comment: `TypeScript enhances my coding experience by adding type safety to JavaScript. It helps me write more maintainable and error-free code. I find it especially useful for larger projects where catching bugs early is crucial.`,
   },
   {
     id: '03',
     icon: IoLogoReact,
     title: 'React JS',
-    comment: `I'm deeply passionate about React.js and have been using it extensively for over 3 years. I've built numerous projects, including e-commerce websites, dashboards, and interactive web applications.`,
+    comment: `I've been working with React.js for a few years and enjoy its component-based architecture. It's been instrumental in building responsive and interactive user interfaces. I use it regularly for both personal and professional projects.`,
   },
   {
     id: '04',
-    icon: IoLogoNodejs,
-    title: 'Node JS',
-    comment: `Node.js is my go-to choice for building scalable and efficient server-side applications. With its event-driven architecture and extensive ecosystem, I've built RESTful APIs, real-time chat applications, and more.`,
+    icon: SiExpress,
+    title: 'Express JS',
+    comment: `Express.js is my preferred framework for server-side development. Its simplicity and flexibility make it easy to set up routes and handle requests. I've used it to build RESTful APIs and full-stack applications with ease.`,
   },
   {
     id: '05',
-    icon: SiMongodb,
-    title: 'MongoDB',
-    comment: `MongoDB's flexible document-based structure and scalability make it an ideal choice for storing and managing data in modern web applications. I've used MongoDB extensively in projects, ranging from small-scale applications to large-scale platforms.`,
+    icon: SiNextdotjs,
+    title: 'Next.js',
+    comment: `Next.js is a great framework for server-rendered React applications. Its built-in features, like static site generation and API routes, help me create performant and SEO-friendly web apps. I rely on it for projects that need fast load times and good search engine optimization.`,
   },
   {
     id: '06',
-    icon: RiTailwindCssFill,
-    title: 'Tailwind CSS',
-    comment: `Tailwind CSS has revolutionized the way I approach front-end styling. Its utility-first approach allows me to rapidly build responsive and beautifully designed interfaces without writing custom CSS.`,
+    icon: SiMysql,
+    title: 'MySQL',
+    comment: `I've found MySQL to be a solid database choice for my projects. Its straightforward setup and reliability have been really helpful. Whether I'm working on smaller applications or projects with more data, MySQL has consistently met my needs. I appreciate its strong community and extensive documentation, which make problem-solving easier.`,
   },
 ];
 
@@ -114,7 +122,7 @@ export const ABOUT_ME_DATA = {
 
   stats: {
     yearsOfExperience: '3',
-    numberOfProjects: 20,
-    certificationsEarned: 8,
+    numberOfProjects: 10,
+    certificationsEarned: 7,
   },
 };

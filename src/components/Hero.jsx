@@ -28,7 +28,7 @@ const Hero = () => {
     >
       <div className='flex-1 text-center md:text-left z-[1]'>
         <span className='text-xs md:text-sm text-blue-200 font-thin'>
-          A Full Stack Developer
+          Be curious. Read widely. Try new things. 🎈
         </span>
 
         <h2 className='text-3xl mt-3 md:text-5xl md:mt-5'>
@@ -40,7 +40,13 @@ const Hero = () => {
         </p>
 
         <button className='bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded '>
-          <a href='https://oerdbej.vercel.app/'>Show Case 📂 </a>
+          <a
+            href='https://oerdbej.vercel.app/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Show Case 📂{' '}
+          </a>
         </button>
       </div>
 

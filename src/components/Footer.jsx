@@ -35,10 +35,12 @@ const Footer = () => {
         <a
           href='https://slowcoding.vercel.app/'
           className='rainbow-text'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           slowcoding
         </a>{' '}
-        💛
+        🚀
       </div>
     </>
   );
