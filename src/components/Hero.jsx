@@ -37,7 +37,9 @@ const Hero = () => {
           {tagline}
         </p>
 
-        <button className='primary-btn'>Contact Me</button>
+        <button className='primary-btn'>
+          <a href='https://oerdbej.vercel.app/'>Show Case 📂 </a>
+        </button>
       </div>
 
       <div className='flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]'>

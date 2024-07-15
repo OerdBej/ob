@@ -12,7 +12,7 @@ export const PROFILE_DATA = {
   name: 'Oerd Bej',
   tagline: `Fullstack Developer with more than 2.5 years of experience specializing in the JavaScript ecosystem, with a strong emphasis on React and Typescript. Dedicated to lifelong learning, I embody a growth mindset and excel in creative problem-solving. My expertise is further enhanced by proven leadership abilities and exceptional communication skills.`,
   jobTitle: 'Full Stack Developer',
-  location: 'Germany',
+  location: 'Berlin, Germany',
   yearsOfExperience: 3,
   skills: [
     'JavaScript',
@@ -72,27 +72,27 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
   {
     id: '01',
-    company: 'Tech Solutions Inc.',
-    position: 'Senior Frontend Developer',
+    company: 'ReDi School of Digital Integrtion - Berlin',
+    position: 'Frontend Developer',
     duration: '2018 - Present',
     description:
-      'Lead the front-end development team in designing and implementing user interfaces for various web applications. Collaborated with designers and backend developers to deliver high-quality products.',
+      ' Boosted engagement and retention by 30% through leading 2-3 live Zoom JavaScript classes weekly, resulting in higher completion rates and positive student feedback. Delivered tailored guidance to improve student performance and confidence in JavaScript programming. Mentored 3 junior JavaScript developers, enhancing their problem-solving skills. Provided 13 hours of monthly JavaScript mentorship.',
   },
   {
     id: '02',
-    company: 'CodeCrafters LLC',
-    position: 'Frontend Developer',
-    duration: '2016 - 2018',
+    company: 'European Movement Albania - Tirane',
+    position: 'Web Manager',
+    duration: 'Apr 2023 - Mar 2024',
     description:
-      'Developed responsive and interactive user interfaces for client projects using modern web technologies. Participated in code reviews and provided technical guidance to junior developers.',
+      'Managed and prioritized the product backlog, aligning development with strategic goals and user needs. Oversaw routine updates and enhancements, adding new features and resolving technical issues. Enhanced Moodle functionality, boosting project efficiency and user engagement by 35% among 9000 users, increasing satisfaction and loyalty. Drove 120,000 unique visitors to the website from January 2022 to March 2024, improving lead generation and customer acquisition.',
   },
   {
     id: '03',
-    company: 'Digital Innovations Co.',
-    position: 'UI/UX Designer',
-    duration: '2014 - 2016',
+    company: 'Auriga - remote',
+    position: 'Fullstack Developer',
+    duration: 'Jun 2022 - Mar 2023',
     description:
-      'Designed and developed user interfaces for web applications, focusing on usability and aesthetics. Collaborated closely with clients to understand their requirements and deliver customized solutions.',
+      'Translated Figma mockups into responsive Material-UI components, ensuring pixel-perfect UI/UX design. Enhanced performance with React, reducing load times and aligning with business goals. Implemented agile methodologies to streamline work processes, ensuring client satisfaction. Collaborated with UX/UI team to improve user interface, decreasing bounce rate and increasing user satisfaction. Achieved a 20% increase in engagement and improved SEO by transitioning to Material-UI, reducing rendering time, and boosting website performance over 6 months.',
   },
 ];
 
