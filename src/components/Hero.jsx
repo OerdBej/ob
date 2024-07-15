@@ -5,6 +5,8 @@ import { MdOutlineBadge } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { PROFILE_DATA } from '../utils/data';
+import { FaBook } from 'react-icons/fa';
+import { FaGlobe } from 'react-icons/fa';
 
 import PROFILE_PIC from '../assets/profile-pic-1.png';
 
@@ -89,17 +91,43 @@ const Hero = () => {
             ))}
           </div>
 
+          {/* icons of the hero section */}
           <div className='flex items-center gap-2 flex-wrap'>
             <div className='bg-blue-800/30 p-2 rounded'>
-              <FaGithub className='text-lg md:text-xl' />
+              <a
+                href='https://github.com/OerdBej'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaGithub className='text-lg md:text-xl' />
+              </a>
             </div>
-
             <div className='bg-blue-800/30 p-2 rounded'>
-              <FaLinkedin size={20} />
+              <a
+                href='https://www.linkedin.com/in/oerdbej/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaLinkedin size={20} />
+              </a>
             </div>
-
             <div className='bg-blue-800/30 p-2 rounded'>
-              <FaXTwitter size={20} />
+              <a
+                href='https://www.goodreads.com/user/show/58869139-oerd-bej'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaBook size={20} />
+              </a>
+            </div>
+            <div className='bg-blue-800/30 p-2 rounded'>
+              <a
+                href='https://slowcoding.vercel.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaGlobe size={20} />
+              </a>
             </div>
           </div>
         </div>
