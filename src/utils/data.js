@@ -1,26 +1,26 @@
 import {
   IoLogoJavascript,
-  IoLogoHtml5,
   IoLogoReact,
   IoLogoNodejs,
 } from 'react-icons/io5';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { SiMongodb } from 'react-icons/si';
+import { SiTypescript } from 'react-icons/si';
 
 export const PROFILE_DATA = {
   profilePicture: 'https://via.placeholder.com/150',
-  name: 'John Doe',
-  tagline: `Passionate React JS developer with 4 years of experience, dedicated to crafting immersive web experiences and solving complex challenges.`,
+  name: 'Oerd Bej',
+  tagline: `Fullstack Developer with more than 2.5 years of experience specializing in the JavaScript ecosystem, with a strong emphasis on React and Typescript. Dedicated to lifelong learning, I embody a growth mindset and excel in creative problem-solving. My expertise is further enhanced by proven leadership abilities and exceptional communication skills.`,
   jobTitle: 'Full Stack Developer',
-  location: 'USA',
-  yearsOfExperience: 4,
+  location: 'Germany',
+  yearsOfExperience: 3,
   skills: [
-    'React.js',
     'JavaScript',
-    'HTML',
-    'CSS',
-    'Git',
-    'Bootstrap',
+    'React.js',
+    'Redux',
+    'Typescript',
+    'Tailwind CSS',
+    'Material UI',
     'Redux',
     'Node.js',
     'RESTful APIs',
@@ -39,9 +39,9 @@ export const SKILLS = [
   },
   {
     id: '02',
-    icon: IoLogoHtml5,
-    title: 'HTML',
-    comment: `HTML is the foundation of every web project I work on. I have a deep understanding of its structure and semantics, ensuring my web applications are well-structured and accessible.`,
+    icon: SiTypescript,
+    title: 'Typescript',
+    comment: `TypeScript is a fundamental part of every web project I work on. I have a deep understanding of its type system and features, ensuring my code is robust, maintainable, and scalable.`,
   },
   {
     id: '03',
@@ -98,20 +98,20 @@ export const WORK_EXPERIENCE = [
 
 export const ABOUT_ME_DATA = {
   introduction:
-    "Hi, I'm John Doe, an experienced React JS developer passionate about building engaging web applications and solving complex problems with code.",
+    'Fullstack Developer with more than 2.5 years of experience specializing in the JavaScript ecosystem, with a strong emphasis on React and TypeScript. Dedicated to lifelong learning, I embody a growth mindset and excel in creative problem-solving. My expertise is further enhanced by proven leadership abilities and exceptional communication skills.',
   background:
-    "I hold a Bachelor's degree in Computer Science from the University of Science and Technology. Over the past 4 years, I've gained valuable experience in frontend development, working on projects ranging from e-commerce websites to interactive dashboards.",
+    'Throughout my career, I have worked on various projects that have honed my skills and expanded my knowledge base. My journey in software development began with a strong foundation in fundamental programming concepts, which has allowed me to tackle complex challenges with confidence.',
   skills:
-    "I'm proficient in a variety of technologies including React.js, JavaScript, HTML, CSS, and Node.js. I'm also experienced in using version control systems like Git and working with RESTful APIs.",
+    "I'm proficient in a variety of technologies including React.js, TypeScript, JavaScript, HTML, CSS, Node.js, MongoDB, Material UI, and Tailwind CSS. I'm also experienced in using version control systems like Git and working with RESTful APIs.",
   projects:
-    'Some of my notable projects include an e-commerce website built with React.js and Redux, a social media dashboard using Node.js and MongoDB, and a personal portfolio website deployed with Netlify.',
+    'Some of my notable projects include an e-commerce website built with React.js and Redux, a real-time chat application using Node.js and MongoDB, and a responsive dashboard utilizing Material UI and Tailwind CSS.',
   interests:
-    "Outside of coding, I enjoy traveling to new places, capturing moments through photography, and playing guitar. I'm also an avid reader and love exploring new cuisines.",
+    'Outside of coding, I am passionate about reading books, which broadens my knowledge and fuels my creativity. I also enjoy going on cycling adventures, which helps me stay active and provides a refreshing break from the digital world.',
   careerGoals:
     "In the future, I aim to continue honing my skills as a developer, exploring new technologies, and contributing to meaningful projects that make a positive impact on people's lives.",
 
   stats: {
-    yearsOfExperience: '11+',
+    yearsOfExperience: '3',
     numberOfProjects: 20,
     certificationsEarned: 8,
   },
