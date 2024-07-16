@@ -84,7 +84,7 @@ export const WORK_EXPERIENCE = [
     id: '01',
     company: 'ReDi School of Digital Integrtion - Berlin',
     position: 'Frontend Developer',
-    duration: '2018 - Present',
+    duration: 'Aug 2023 - Present',
     description:
       ' Boosted engagement and retention by 30% through leading 2-3 live Zoom JavaScript classes weekly, resulting in higher completion rates and positive student feedback. Delivered tailored guidance to improve student performance and confidence in JavaScript programming. Mentored 3 junior JavaScript developers, enhancing their problem-solving skills. Provided 13 hours of monthly JavaScript mentorship.',
   },
