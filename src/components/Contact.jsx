@@ -2,7 +2,6 @@ import React from 'react';
 import { IoMdMail } from 'react-icons/io';
 import { PROFILE_DATA } from '../utils/data';
 import { IoPhonePortraitOutline } from 'react-icons/io5';
-import { MdOutlineWeb } from 'react-icons/md';
 
 const Contact = () => {
   return (

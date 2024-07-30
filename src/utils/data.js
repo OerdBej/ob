@@ -1,14 +1,9 @@
-import {
-  IoLogoJavascript,
-  IoLogoReact,
-  IoLogoNodejs,
-} from 'react-icons/io5';
-import { RiTailwindCssFill } from 'react-icons/ri';
-import { SiMongodb } from 'react-icons/si';
+import { IoLogoJavascript, IoLogoReact } from 'react-icons/io5';
 import { SiTypescript } from 'react-icons/si';
 import { SiExpress } from 'react-icons/si';
 import { SiNextdotjs } from 'react-icons/si';
 import { SiMysql } from 'react-icons/si';
+import { TbPrompt } from 'react-icons/tb';
 
 export const PROFILE_DATA = {
   profilePicture: 'https://via.placeholder.com/150',
@@ -34,10 +29,11 @@ I love to read books and you can follow me on Goodreads. Also, feel free to chec
     'MySQL',
     'Linux',
     'AWS',
+    'Prompt Engineering',
   ],
   email: 'oerdbej@gmail.com',
   phone: '+49 162 3388674',
-  website: 'https://timetoprogram.com',
+  website: 'https://slowcoding.vercel.app/',
 };
 
 export const SKILLS = [
@@ -76,6 +72,12 @@ export const SKILLS = [
     icon: SiMysql,
     title: 'MySQL',
     comment: `I've found MySQL to be a solid database choice for my projects. Its straightforward setup and reliability have been really helpful. Whether I'm working on smaller applications or projects with more data, MySQL has consistently met my needs. I appreciate its strong community and extensive documentation, which make problem-solving easier.`,
+  },
+  {
+    id: '07',
+    icon: TbPrompt,
+    title: 'Prompt Engineering',
+    comment: `Certified in AI tools and prompt engineering, I've learned to supercharge creativity and productivity with Generative AI. My training covered everything from automating tasks to enhancing problem-solving with large language models. I can craft effective prompts, generate marketing content, and create data-driven presentations. Hands-on projects helped me master using AI for smart planning, quick problem-solving, and extracting key insights, making me skilled at applying AI in real-world scenarios.`,
   },
 ];
 
@@ -123,6 +125,6 @@ export const ABOUT_ME_DATA = {
   stats: {
     yearsOfExperience: '3',
     numberOfProjects: 10,
-    certificationsEarned: 7,
+    certificationsEarned: 8,
   },
 };
