@@ -3,7 +3,6 @@ import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { FiMail } from 'react-icons/fi';
 import { MdOutlineBadge } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
 import { PROFILE_DATA } from '../utils/data';
 import { FaBook } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
@@ -39,15 +38,27 @@ const Hero = () => {
           {tagline}
         </p>
 
-        <button className='bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded '>
-          <a
-            href='https://oerdbej.vercel.app/'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Show Case 📂{' '}
-          </a>
-        </button>
+        <div className='flex space-x-4'>
+          <button className='bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded'>
+            <a
+              href='https://oerdbej.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Show Case 📂
+            </a>
+          </button>
+
+          <button className='bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded'>
+            <a
+              href='https://slowcoding.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Slow Reading
+            </a>
+          </button>
+        </div>
       </div>
 
       <div className='flex gap-2 justify-center md:gap-3 lg:gap-5 z-[1]'>
