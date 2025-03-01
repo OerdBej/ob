@@ -4,10 +4,7 @@ import BG_GRADIENT from "../assets/bg-gradient-1.png";
 
 const WorkExperience = () => {
   return (
-    <section
-      className="max-w-screen-xl mx-auto pb-0 md:pb-20 px-6 md:px-20 relative"
-      id="experience"
-    >
+    <section className="container mx-auto py-20 relative" id="experience">
       <img
         src={BG_GRADIENT}
         className="w-[60vw] absolute -left-72 -top-56 aspect-square"

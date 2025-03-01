@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { PROFILE_DATA } from '../utils/data';
 import { FaBook } from 'react-icons/fa';
 import { FaGlobe } from 'react-icons/fa';
+import RobotAssistant from './RobotAssistant';
 
 import PROFILE_PIC from '../assets/profile-pic-1.png';
 
@@ -38,24 +39,28 @@ const Hero = () => {
           {tagline}
         </p>
 
-        <div className='flex space-x-4'>
-          <button className='bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded'>
+        <div className='w-full min-h-[30vh] sm:min-h-0 flex flex-col sm:flex-row gap-6 sm:gap-4 items-center justify-center sm:justify-start'>
+          <button className='w-[80%] sm:w-auto bg-red-700 hover:bg-red-800 text-white font-bold py-4 sm:py-3 px-6 rounded-lg transition-all duration-200 shadow-lg active:scale-95'>
             <a
               href='https://oerdbej.vercel.app/'
               target='_blank'
               rel='noopener noreferrer'
+              className='flex items-center justify-center gap-2'
             >
-              Show Case 📂
+              <span className='text-sm sm:text-base'>Show Case</span>
+              <span>📂</span>
             </a>
           </button>
 
-          <button className='bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded'>
+          <button className='w-[80%] sm:w-auto bg-red-700 hover:bg-red-800 text-white font-bold py-4 sm:py-3 px-6 rounded-lg transition-all duration-200 shadow-lg active:scale-95'>
             <a
               href='https://slowcoding.vercel.app/'
               target='_blank'
               rel='noopener noreferrer'
+              className='flex items-center justify-center gap-2'
             >
-              Slow Reading
+              <span className='text-sm sm:text-base'>Slow Reading</span>
+              <span>📚</span>
             </a>
           </button>
         </div>
@@ -153,6 +158,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      <RobotAssistant />
 
       <div className='ui-circle absolute top-6 md:top-10 -left-10 md:left-0'></div>
     </section>

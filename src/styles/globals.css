@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    @apply text-base leading-relaxed;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl safe-paddings;
+  }
+  
+  .robot-grid {
+    @apply grid gap-2 xs:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+  }
+  
+  .robot-card {
+    @apply flex flex-col p-2 xs:p-4 rounded-lg bg-opacity-10 backdrop-blur-sm 
+           transition-all duration-300 hover:scale-105
+           h-full w-full min-w-[100px] mx-auto;
+  }
+  
+  .heading-1 {
+    @apply text-2xl sm:text-3xl md:text-4xl font-bold;
+  }
+  
+  .heading-2 {
+    @apply text-xl sm:text-2xl md:text-3xl font-semibold;
+  }
+  
+  .body-text {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+
+  .input-box {
+    @apply bg-blue-950/50 border border-blue-800/40 rounded p-3 mb-4 
+           text-blue-50 text-sm focus:outline-none focus:ring-2 
+           focus:ring-blue-500/50 transition-all;
+  }
+  
+  .primary-btn {
+    @apply bg-gradient-to-r from-blue-600 to-purple-600 text-white 
+           py-3 px-6 rounded-lg font-medium hover:opacity-90 
+           transition-opacity focus:outline-none focus:ring-2 
+           focus:ring-blue-500/50;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .safe-paddings {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+.weather-widget {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 12px;
+  z-index: 1000;
+}
+
+.weather-widget img {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .robot-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .weather-widget {
+    position: static;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  button, 
+  [role="button"],
+  .clickable {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  input,
+  select,
+  textarea {
+    @apply text-base; /* Prevents zoom on iOS */
+  }
+
+  .robot-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .robot-card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 374px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .heading-1 {
+    font-size: 1.25rem;
+  }
+
+  .heading-2 {
+    font-size: 1rem;
+  }
+
+  .body-text {
+    font-size: 0.875rem;
+  }
+
+  .weather-widget {
+    transform: scale(0.8);
+    transform-origin: top right;
+  }
+}

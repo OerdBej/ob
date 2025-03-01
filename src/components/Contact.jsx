@@ -5,15 +5,12 @@ import { IoPhonePortraitOutline } from 'react-icons/io5';
 
 const Contact = () => {
   return (
-    <section
-      className='max-w-screen-xl mx-auto px-6 pb-20'
-      id='contact'
-    >
+    <section className="container mx-auto py-20" id="contact">
       <h5 className='text-primary text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14 '>
         Get in Touch
       </h5>
 
-      <div class='grid grid-cols-1 md:grid-cols-2 md:gap-16'>
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16">
         <div>
           <ContactInfoCard
             icon={<IoMdMail />}
